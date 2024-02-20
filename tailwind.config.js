@@ -6,6 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      colors: {
+        lavender: "#9488C2",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",

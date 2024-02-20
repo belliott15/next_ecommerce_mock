@@ -11,11 +11,11 @@ export default function Home() {
       <section className="flex flex-col items-center m-4">
         <h1>Get the best in style and substance</h1>
         <p>See our products</p>
-        <span className="">
-          <button className="bg-white rounded text-lg px-2 font-bold text-blue-500">
+        <span className="flex min-w-10 w-80 justify-around m-2">
+          <button className="bg-lavender rounded px-2 font-bold text-white">
             Color!
           </button>
-          <button className="bg-white rounded text-lg px-2 font-bold text-blue-500">
+          <button className="bg-lavender rounded px-2 font-bold text-white">
             Black & White
           </button>
         </span>
